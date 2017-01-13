@@ -112,6 +112,7 @@ func CheckError(err error) {
 	}
 }
 
+// Returns the floor of the midpoint between min and max
 func ComputeGuess(min uint32, max uint32) uint32 {
 	var result uint32 = min + (max-min)/2
 	return result
